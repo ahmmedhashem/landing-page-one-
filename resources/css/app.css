@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../js/**/*.jsx';
+
+@theme {
+    --font-sans: 'Lato', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Marcellus', 'Optima', 'Candara', serif;
+
+    --color-ink: #111111;
+    --color-navy: #0b1c38;
+    --color-navy-light: #16305a;
+    --color-muted: #6b7280;
+}
